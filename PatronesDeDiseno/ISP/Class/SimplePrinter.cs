@@ -7,7 +7,7 @@ namespace ISP.Class
     {
         public void Print(Document document)
         {
-            Console.WriteLine($"Print");
+            Console.WriteLine($"Printing document: {document.Name}");
         }
     }
 }
